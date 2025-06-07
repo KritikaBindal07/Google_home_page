@@ -1,0 +1,13 @@
+.toggle {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background: #e8eaed;
+  cursor: pointer;
+}
+
+.toggle.dark {
+  background: #3c4043;
+  color: #e8eaed;
+}

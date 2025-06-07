@@ -1,0 +1,17 @@
+.custom-btn {
+  margin: 7px;
+  padding: 11px 20px;
+  border: none;
+  background: #f8f9fa;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.custom-btn:hover{
+  border: 1px solid #787a7d;
+}
+.app.dark .custom-btn {
+  background-color: #303134;
+  color: #e8eaed;
+}
