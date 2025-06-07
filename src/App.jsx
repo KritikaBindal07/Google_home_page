@@ -12,7 +12,7 @@ import lab_icon from "./assets/lab_icon.png";
 import lab_icon_dark from "./assets/lab_icon_dark.png";
 
 function App() {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
   const toggleDarkMode = () => setIsDark(!isDark);
 
   return (
